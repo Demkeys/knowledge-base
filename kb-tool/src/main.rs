@@ -100,6 +100,7 @@ fn main() {
 }
 
 /// A debugging function for scratch code.
+#[allow(warnings)]
 fn test01(a: &String) -> String {
     // a.clone()
     //     .split(",")
@@ -110,14 +111,15 @@ fn test01(a: &String) -> String {
 }
 
 /// A debugging function for scratch code.
+#[allow(warnings)]
 fn test02() {
     let str01 = ".md";
 
     let str02 = format!("abc{str01}{}", str01);
-    println!("{}", &str02);
+    println!("{}", str02);
 }
 
-fn new_entry(entries_dir_path: &PathBuf) {
+fn new_entry(entries_dir_path: &Path) {
     // Get user input: Title
     let title = inquire::Text::new("Title:").prompt().expect("Title error.");
 
