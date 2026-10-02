@@ -39,6 +39,5 @@ cargo build --bin kb-tool --release && cp target/release/kb-tool ../tools/kb-too
 ### TODO
 - [x] Create kb-tool. This tool will have multiple subcommands
 - [x] new subcommand
-- [ ] generate-index subcommand
-  - Generates a 'kb-index.md' file containing links for each kb entry, all in one place for the user to click through. This is mainly so users viewing the repo on GitHub have a way to list out all the entries and select the one they want.
+- [x] generate-kb-index subcommand
 
