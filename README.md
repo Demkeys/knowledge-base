@@ -8,13 +8,14 @@ This is a knowledge base (kb) containing various bits of knowledge that I learn 
 ### NOTES
 - 'entries' dir should exist in root dir before kb-tool is used. This is where the entries are stored. This is where kb-tool will read/write entries from/to.
 - kb-tool should be used from 'tools' dir in root dir.
+- When adding a new entry to knowledge-base remember to generate a new kb-index file.
 
 ### USAGE
-- To create new knowledge base entry
-  - Use ``` tools/kb-tool ```
-    - ``` kb-tool new ```
+- To create new knowledge base entry: ```tools/kb-tool new```
   - Program will give you prompts for data.
   - Enter data and the entry will be created.
+- To generate kb-index: ```tools/kb-tool generate-kb-index```
+  - Program will generate a kb-index file containing links to the markdown files for each entry. This file provides a convenient index for anyone viewing the knowledge-base repo on GitHub, so they can browse entries.
 
 ### kb-tool
 Entries are managed using a dedicated tool called 'kb-tool' located at 'tools/kb-tool'. Each entry is represented by a dir with the entry, a '*.md' file within the dir with the same entry name, and any additional media files that need to be referenced in the md file. The md file contains the entry data.
