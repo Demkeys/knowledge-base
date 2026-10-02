@@ -2,6 +2,8 @@
 
 This is a knowledge base (kb) containing various bits of knowledge that I learn as I go. The knowledge base follows a Leaf Bundle structure - each entry is contained within a directory. In each directory there will be one markdown file containing the kb entry data, and any media files that might be referenced in the markdown file. Entries are managed using 'kb-tool'. See 'kb-tool' section for more info.
 
+An index of all the entries can be found in [kb-index.md](kb-index.md).
+
 ### SETUP
 - Clone repo and cd into repo dir.
 
