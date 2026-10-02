@@ -265,7 +265,7 @@ fn generate_kb_index() {
         (temp_path, Path::new("kb-tool/test-entries"))
         // else we assume program is running as standlone.
     } else {
-        (PathBuf::from("../entries"), Path::new("../entries"))
+        (PathBuf::from("../entries"), Path::new("entries"))
     };
 
     // let entries_dir_path = Path::new("test-entries");
