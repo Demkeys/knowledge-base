@@ -24,6 +24,7 @@ Entries are managed using a dedicated tool called 'kb-tool' located at 'tools/kb
 Use ```kb-tool --help``` to get info about the various subcommands.
 
 - new: Used to create a new kb entry. This mainly creates the directory and file and populates the file with TOML front matter data. You can then open up the md file in your editor and add in whatever data you want to.
+- generate-kb-index: Used to generate a kb-index file. This is a markdown file containing links to each entry. This file is the convenience of people viewing the knowledge-base repo on GitHub.
 
 ---
 
