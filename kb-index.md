@@ -12,5 +12,6 @@ ___NOTE: This is an auto-generated index of the entries in the knowledge-base ma
 - [Multiple scrolling options in nvim](entries/multiple-scrolling-options-in-nvim/multiple-scrolling-options-in-nvim.md)
 - [Ubuntu Studio KDE Plasma Virtual Desktop](entries/ubuntu-studio-kde-plasma-virtual/ubuntu-studio-kde-plasma-virtual.md)
 - [Installing i3 WM on Ubuntu Studio](entries/installing-i3-wm-on-ubuntu-studio/installing-i3-wm-on-ubuntu-studio.md)
+- [Git Internals - Commits, Trees and Blobs](entries/git-internals-commits-trees-and/git-internals-commits-trees-and.md)
 - [C# intellisense with csharp-ls and nvim](entries/c-intellisense-with-csharpls-and/c-intellisense-with-csharpls-and.md)
 - [VRC World Building on Linux](entries/vrc-world-building-on-linux/vrc-world-building-on-linux.md)
