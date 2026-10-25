@@ -38,6 +38,9 @@ Use ```kb-tool --help``` to get info about the various subcommands.
 cargo build --bin kb-tool --release && cp target/release/kb-tool ../tools/kb-tool
 ```
 
+### ISSUES
+- [ ] Using generate-kb-index when calling kb-tool from outside tools dir causes panic.
+
 ### TODO
 - [x] Create kb-tool. This tool will have multiple subcommands
 - [x] new subcommand
